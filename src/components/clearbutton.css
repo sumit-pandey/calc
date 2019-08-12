@@ -1,0 +1,15 @@
+.clear{
+    padding:  15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e1e6;
+    font-size: 25px;
+    grid-column: 1 / span 4;
+    color: #313030cf;
+}
+@media only screen and (max-width:430px){
+    .clear{
+        padding: 6px 15px;
+    }
+}

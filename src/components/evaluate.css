@@ -1,0 +1,15 @@
+.equal{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    font-size: 25px;
+    grid-column: 2/span 2
+
+}
+@media only screen and (max-width: 430px){
+    .equal{
+        padding: 8px 10px;
+    }
+}
